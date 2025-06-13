@@ -25,7 +25,7 @@ A reusable WordPress plugin updater class that handles automatic updates from Gi
 ## Quick Start
 
 ### 1. Copy the updater class to your plugin
-Copy `class-github-plugin-updater.php` to your plugin directory.
+Copy [`class-github-plugin-updater.php`](class-github-plugin-updater.php) to your plugin directory.
 
 ### 2. Include the class in your main plugin file
 ```php
