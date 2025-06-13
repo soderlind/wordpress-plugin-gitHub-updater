@@ -4,7 +4,6 @@ A reusable WordPress plugin updater class that handles automatic updates from Gi
 
 ## Table of Contents
 
-- [Files Overview](#files-overview)
 - [Quick Start](#quick-start)
 - [Configuration Parameters](#configuration-parameters)
 - [GitHub Workflow for Automatic Release Assets](#github-workflow-for-automatic-release-assets)
@@ -16,11 +15,6 @@ A reusable WordPress plugin updater class that handles automatic updates from Gi
 - [Error Handling](#error-handling)
 - [License](#license)
 
-## Files Overview
-
-- `class-github-plugin-updater.php` - **Recommended generic class** with better error handling
-- `class-additional-javascript-updater.php` - Modified original class with backward compatibility
-- `example-generic-updater.php` - Example implementations
 
 ## Quick Start
 
