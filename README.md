@@ -23,7 +23,9 @@ Copy [`class-github-plugin-updater.php`](class-github-plugin-updater.php) to you
 
 ### 2. Include the class in your main plugin file
 ```php
-require_once plugin_dir_path( __FILE__ ) . 'class-github-plugin-updater.php';
+if ( ! class_exists( 'Soderlind\WordPress\GitHub_Plugin_Updater' ) ) {
+	require_once  'class-github-plugin-updater.php';
+}
 ```
 
 ### 3. Initialize with your plugin's configuration
