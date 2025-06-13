@@ -1,6 +1,6 @@
 # WordPress Plugin GitHub Updater
 
-A reusable WordPress plugin updater class that handles automatic updates from GitHub repositories using the [`yahnis-elsts/plugin-update-checker`](https://github.com/YahnisElsts/plugin-update-checker) library.
+A reusable WordPress plugin updater class that handles automatic updates from GitHub repositories using the [`yahnis-elsts/plugin-update-checker`](#dependencies) library.
 
 ## Table of Contents
 
