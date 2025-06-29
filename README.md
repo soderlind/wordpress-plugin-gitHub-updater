@@ -171,6 +171,11 @@ $updater = \Soderlind\WordPress\GitHub_Plugin_Updater::create_with_assets(
 
 ## Usage Examples
 
+### In Use
+- [Additional JavaScript Updater](https://github.com/soderlind/additional-javascript/blob/main/additional-javascript.php#L34-L42)
+- [Multisite Exporter](https://github.com/soderlind/multisite-exporter/blob/main/includes/class-multisite-exporter.php#L57-L63)
+- [Super Admin Switch to Admin](https://github.com/soderlind/super-admin-switch-to-admin/blob/main/super-admin-switch-to-admin.php#L44-L50)
+
 ### Example 1: Basic Plugin Update
 ```php
 <?php
@@ -230,6 +235,11 @@ $updater = new \Soderlind\WordPress\GitHub_Plugin_Updater( array(
     'enable_release_assets' => true,
 ) );
 ```
+
+
+
+
+
 
 ## Customizing the Class
 
@@ -309,4 +319,4 @@ The `GitHub_Plugin_Updater` class includes robust error handling:
 
 ## License
 
-GPL-2.0+ (same as the original plugin)
+MIT (same as the original library)
