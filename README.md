@@ -153,9 +153,9 @@ https://github.com/username/plugin-name/releases/latest/download/plugin-name.zip
 ## Usage Examples
 
 ### Real-World Implementations
-- [Additional JavaScript](https://github.com/soderlind/additional-javascript/blob/main/additional-javascript.php#L34-L42)
+- [Additional JavaScript](https://github.com/soderlind/additional-javascript/blob/main/additional-javascript.php#L33-L44)
 - [Multisite Exporter](https://github.com/soderlind/multisite-exporter/blob/main/includes/class-multisite-exporter.php#L57-L63)
-- [Super Admin Switch to Admin](https://github.com/soderlind/super-admin-switch-to-admin/blob/main/super-admin-switch-to-admin.php#L44-L50)
+- [Super Admin Switch to Admin](https://github.com/soderlind/super-admin-switch-to-admin/blob/main/super-admin-switch-to-admin.php#L38-L50)
 
 ### Basic Plugin Setup
 ```php
